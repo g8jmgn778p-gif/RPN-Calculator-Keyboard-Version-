@@ -14,5 +14,7 @@ BCDにしたのは丸め誤差が出ないことと、有効桁数を自由に�
 
 ## ハードウェア構成
 [ESP32 DevKitC](https://www.amazon.co.jp/dp/B06XWP81GP?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4)
+
 [0.96インチ OLEDディスプレイ](https://www.amazon.co.jp/dp/B08MZGX7YR?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)
+
 [4 × 4 マトリックスアレイ 16 ボタンキーパッドキーボードモジュール 16 キー MCU 膜ボタンキーパッド電気 キット](https://www.amazon.co.jp/dp/B0DFPJ27BX?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1)
