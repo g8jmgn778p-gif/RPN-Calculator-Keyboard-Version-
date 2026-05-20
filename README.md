@@ -11,3 +11,8 @@ BCDにしたのは丸め誤差が出ないことと、有効桁数を自由に�
 逆三角関数ですが、テーラー展開で実装しています。
 この計算機のRPN電卓の特徴であるスタックをフル活用しようと、逆三角関数を計算するときにスレッドを生成し、そのスレッドでキー操作されたように見せかけて計算しています。具体的には、逆三角関数計算スレッドが”＊”や”＋”等の演算子、”Enter"を押下したように見せかけて、内部メモリ（スタック）を使った計算をするスクリプトのようにプログラムしています。
 逆三角関数計算スレッドが電卓を操作しているようになるので、計算途中には表示画面がチラチラ書き変わって行くのも面白いなと思っています。
+
+## ハードウェア構成
+[ESP32 DevKitC](https://www.amazon.co.jp/dp/B06XWP81GP?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4)
+[0.96インチ OLEDディスプレイ](https://www.amazon.co.jp/dp/B08MZGX7YR?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)
+[4 × 4 マトリックスアレイ 16 ボタンキーパッドキーボードモジュール 16 キー MCU 膜ボタンキーパッド電気 キット](https://www.amazon.co.jp/dp/B0DFPJ27BX?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1)
