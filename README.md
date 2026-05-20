@@ -23,3 +23,5 @@ BCDにしたのは丸め誤差が出ないことと、有効桁数を自由に�
 
 電源周りはご自由に。
 USB給電であればそのまま。持ち運びのためにバッテリー駆動するならそれらの部品と回路
+
+![RPN-Calc.jpeg](https://github.com/g8jmgn778p-gif/RPN-Calculator-Keyboard-Version-/blob/main/RPN-Calc.jpeg?raw=true)
