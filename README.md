@@ -13,8 +13,13 @@ BCDにしたのは丸め誤差が出ないことと、有効桁数を自由に�
 逆三角関数計算スレッドが電卓を操作しているようになるので、計算途中には表示画面がチラチラ書き変わって行くのも面白いなと思っています。
 
 ## ハードウェア構成
-[ESP32 DevKitC](https://www.amazon.co.jp/dp/B06XWP81GP?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4)
+[ESP32 DevKitC 1個](https://www.amazon.co.jp/dp/B06XWP81GP?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4)
 
-[0.96インチ OLEDディスプレイ](https://www.amazon.co.jp/dp/B08MZGX7YR?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)
+[0.96インチ OLEDディスプレイ 2個](https://www.amazon.co.jp/dp/B08MZGX7YR?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)
 
-[4 × 4 マトリックスアレイ 16 ボタンキーパッドキーボードモジュール 16 キー MCU 膜ボタンキーパッド電気 キット](https://www.amazon.co.jp/dp/B0DFPJ27BX?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1)
+[16 ボタンキーパッドキーボード 1個](https://www.amazon.co.jp/dp/B0DFPJ27BX?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1)
+
+タクトスイッチ 2〜4個 （使っているものは２個。残りは今後の拡張用の予備）
+
+電源周りはご自由に。
+USB給電であればそのまま。持ち運びのためにバッテリー駆動するならそれらの部品と回路
