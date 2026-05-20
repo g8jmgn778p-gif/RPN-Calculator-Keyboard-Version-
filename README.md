@@ -27,19 +27,20 @@ USB給電であればそのまま。持ち運びのためにバッテリー駆�
 ![RPN-Calc.jpeg](https://github.com/g8jmgn778p-gif/RPN-Calculator-Keyboard-Version-/blob/main/RPN-Calc.jpeg?raw=true)
 
 ## 配線
-OLED i2c  
- SDApin -- GPIO 21  
- SCLpin -- GPIO 22  
- 
- OLED_I2C_ADDRESS 1 0x3d　（裏面のチップ抵抗の位置をずらしてください）  
- OLED_I2C_ADDRESS 2 0x3c  
+- OLED i2c GPIO接続先
+    - SDApin -- GPIO 21
+    - SCLpin -- GPIO 22
+      
+- OLED i2c アドレス
+    - OLED_I2C_ADDRESS 1 0x3d　（裏面のチップ抵抗の位置をずらしてください）
+    - OLED_I2C_ADDRESS 2 0x3c  
 
-OLED上部SW　（タクトスイッチ）  
- F_SW4 -- GPIO 23    // 右端  
- F_SW3 -- GPIO 19    // 右から２番目  
- F_SW2 -- GPIO 18    // 左から２番目  
- F_SW1 -- GPIO 13    // 左端  
+- OLED上部SW　（タクトスイッチ）GPIO接続先
+    - F_SW4 -- GPIO 23    // 右端
+    - F_SW3 -- GPIO 19    // 右から２番目
+    - F_SW2 -- GPIO 18    // 左から２番目
+    - F_SW1 -- GPIO 13    // 左端  
 
-テンキー  
- y軸 : GPIO 12, 14, 27, 26  
- x軸 : GPIO 25, 33, 32, 35  
+- テンキー GPIO接続先
+    - y軸 : GPIO 12, 14, 27, 26
+    - x軸 : GPIO 25, 33, 32, 35  
