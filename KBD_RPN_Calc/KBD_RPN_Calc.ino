@@ -7,27 +7,27 @@
    0          
    2          
    4          
-   5          USB SS
-  12                 ※2020.03.10 書き込みや起動の問題が発生するため変更
+   5          
+  12          key_y
   13          
-  14          
-  15          SD CS
+  14          key_y
+  15          
   16          
-  17          USB INT
-  18          SPI CLK
-  19          SPI MISO
+  17          F_SW1
+  18          F_SW2
+  19          F_SW3
   21          I2C SDA (OLED)
   22          I2C SCL (OLED)
-  23          SPI MOSI
-  25          LED(R)
-  26          LED(G)
-  27          LED(B)
-  32          ----
-  33
-  34          (INPUT only)
-  35          (INPUT only)
-  5V          V-BUS
-  EN          USB RST
+  23          F_SW4
+  25          key_x
+  26          key_y
+  27          key_y
+  32          key_X
+  33          key_X
+  34          
+  35          key_X
+  5V          
+  EN          
   3.3V        
   GND         
 
